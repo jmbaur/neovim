@@ -33,11 +33,11 @@
     "jared-vim": {
       "flake": false,
       "locked": {
-        "lastModified": 1656742152,
-        "narHash": "sha256-abnxiUAP2RdDLu1+FB+kkCuxy72tHcioYfA1kEldoGI=",
+        "lastModified": 1656743155,
+        "narHash": "sha256-lr1gceGW4PXffwmyLZCFa4yzfOQtb/reXKatiZAqle4=",
         "owner": "jmbaur",
         "repo": "jared.vim",
-        "rev": "03a8b5f0ba818289789887be377a953c305e1ca0",
+        "rev": "a3becc3bf7ab6adf95284c0423155c93e37acbba",
         "type": "github"
       },
       "original": {
