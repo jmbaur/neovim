@@ -1,9 +1,10 @@
-{ embed ? false
-, bat
+{ bat
 , black
 , cargo
 , clang
+, clang-tools
 , efm-langserver
+, embed ? false
 , fd
 , git
 , go-tools
@@ -80,6 +81,7 @@ let
         bat
         cargo
         clang
+        clang-tools
         efm-langserver
         fd
         git

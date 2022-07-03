@@ -79,6 +79,7 @@ local servers = {
 	rust_analyzer = { on_attach = on_attach_format },
 	tsserver = { on_attach = on_attach_org_imports },
 	zls = { on_attach = on_attach_format },
+	clangd = { on_attach = on_attach },
 }
 vim.g.zig_fmt_autosave = 0
 
