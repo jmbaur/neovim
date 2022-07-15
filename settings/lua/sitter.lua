@@ -1,9 +1,5 @@
 require("nvim-treesitter.configs").setup({
-	highlight = {
-		enable = vim.g.embed == 0,
-		-- these grammars have been unstable in my experience
-		disable = { "lua", "nix", "vim" },
-	},
+	highlight = { enable = vim.g.embed == 0 },
 	textobjects = {
 		select = {
 			enable = true,
