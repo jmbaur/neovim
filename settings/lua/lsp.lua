@@ -112,7 +112,7 @@ lspconfig.efm.setup({
 			},
 			python = {
 				{ formatCommand = "black --quiet -", formatStdin = true },
-				{ formatCommand = "isort --quiet -", formatStdin = true },
+				{ formatCommand = "isort --quiet --profile=black -", formatStdin = true },
 			},
 			sh = {
 				{ formatCommand = "shfmt -ci -s -bn", formatStdin = true },
