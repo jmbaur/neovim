@@ -44,6 +44,7 @@ let
         (nvim-treesitter.withPlugins (_: tree-sitter.allGrammars))
         comment-nvim
         jmbaur-settings
+        lsp_lines-nvim
         nvim-autopairs
         nvim-lspconfig
         nvim-treesitter-textobjects

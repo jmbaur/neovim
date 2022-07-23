@@ -1,7 +1,8 @@
+require("diagnostic")
+require("launcher")
 require("lsp")
-require("scope")
-require("snips")
 require("nvim-lastplace").setup({})
+require("snippet")
 
 vim.opt.belloff = "all"
 vim.opt.colorcolumn = "80"
